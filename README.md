@@ -64,7 +64,7 @@ GROQ_API_KEY=your_api_key_here
 ```bash
 streamlit run chatbot.py
 
-## 📌 Future  Improvements
+## 📌 Future Improvements
 
 * Multiple chat sessions
 * Conversation history
