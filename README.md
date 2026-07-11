@@ -73,3 +73,5 @@ streamlit run chatbot.py
 * Web search integration
 * Voice input and output
 * RAG using PDF documents
+<img width="1366" height="768" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/596660c0-5f4a-467d-b8ea-4fe3a133b268" />
+
