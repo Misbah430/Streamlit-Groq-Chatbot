@@ -58,7 +58,8 @@ GROQ_API_KEY=your_api_key_here
 ```
 
 ---
-![Uploading Screenshot (229).png…]()
+<img width="1366" height="768" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/f1f1527c-61da-4488-acf0-19e349d368b9" />
+
 
 ## ▶️ Run the Application
 
