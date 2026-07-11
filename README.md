@@ -1,6 +1,6 @@
 ## 🤖 Groq AI Chatbot
 
-A simple AI chatbot built with **Python**, **Streamlit**, and the **Groq API**. The chatbot provides real-time conversational responses using the Llama 3.3 70B Versatile model while maintaining chat history during the session.
+A simple AI chatbot built with **Python**, **Streamlit**, and the **Groq API**. The chatbot provides real-time conversational responses using the Llama 3.3 70B Versatile model, while maintaining a chat history throughout the session.
 
 ## 🚀 Features
 * 💬 Interactive chat interface
@@ -58,6 +58,7 @@ GROQ_API_KEY=your_api_key_here
 ```
 
 ---
+![Uploading Screenshot (229).png…]()
 
 ## ▶️ Run the Application
 
@@ -73,5 +74,6 @@ streamlit run chatbot.py
 * Web search integration
 * Voice input and output
 * RAG using PDF documents
-<img width="1366" height="768" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/596660c0-5f4a-467d-b8ea-4fe3a133b268" />
+
+
 
