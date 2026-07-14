@@ -22,12 +22,6 @@ A simple and responsive AI chatbot built with **Python**, **Streamlit**, and the
 
 <img width="1364" height="670" alt="Screenshot " src="https://github.com/user-attachments/assets/f4cdbb0c-e95e-44fe-b777-bd93538b60ef" />
 
-
-Example:
-
-![Groq AI Chatbot](
-)
-
 ---
 
 ## 🛠️ Technologies Used
