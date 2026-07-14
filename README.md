@@ -1,80 +1,122 @@
-## 🤖 Groq AI Chatbot
+# 🤖 Groq AI Chatbot
 
-A simple AI chatbot built with **Python**, **Streamlit**, and the **Groq API**. The chatbot provides real-time conversational responses using the Llama 3.3 70B Versatile model, while maintaining a chat history throughout the session.
+A simple and responsive AI chatbot built with **Python**, **Streamlit**, and the **Groq API**. The chatbot uses the **Llama 3.3 70B Versatile** model to generate fast, real-time AI responses.
 
-## 🚀 Features
-* 💬 Interactive chat interface
-* ⚡ Fast AI responses powered by Groq
-* 📝 Chat history
-* 🔐 Secure API key management using `.env`
-* 🎨 Clean and responsive Streamlit UI
+---
+
+## 📌 Features
+
+- 🤖 Powered by Groq API
+- 🧠 Uses Llama 3.3 70B Versatile model
+- 💬 Interactive chat interface
+- ⚡ Real-time streaming responses
+- 📝 Automatic conversation title
+- 🆕 Start a new conversation
+- 📥 Download chat history as JSON
+- 🔒 Secure API key management using `.env`
+- 🎨 Clean and responsive Streamlit interface
+
+---
+
+## 🖼️ Preview
+
+> Add a screenshot of the application here.
+
+Example:
+
+![Groq AI Chatbot](<img width="1364" height="670" alt="Screenshot " src="https://github.com/user-attachments/assets/4a7660d5-e03b-4c8c-86ee-788f4548afb9" />
+)
+
+---
 
 ## 🛠️ Technologies Used
-* Python 3.12
-* Streamlit
-* Groq API
-* python-dotenv
-## 📂 Project Structure
-Chatbot/
-│── chatbot.py
+
+- Python
+- Streamlit
+- Groq API
+- Llama 3.3 70B Versatile
+- python-dotenv
+
+---
+
+## 📁 Project Structure
+
+```text
+Streamlit-Groq-Chatbot/
+│── app.py
 │── requirements.txt
 │── .env
 │── .gitignore
 │── README.md
-
-## 📦 Installation
-
-Clone the repository:
-```bash
-git clone https://github.com/your-username/groq-chatbot.git
-```
-Go to the project folder:
-```bash
-cd groq-chatbot
-
-Create a virtual environment (optional):
-
-```bash
-conda create -p chatbot python=3.12 -y
-conda activate chatbot
 ```
 
-Install the required packages:
+---
+
+## 🚀 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Misbah430/Streamlit-Groq-Chatbot.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd Streamlit-Groq-Chatbot
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file in the project folder.
-
-Add your Groq API key:
+### Create a `.env` file
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_groq_api_key
+```
+
+### Run the application
+
+```bash
+streamlit run app.py
 ```
 
 ---
-<img width="1366" height="768" alt="Screenshot (229)" src="https://github.com/user-attachments/assets/f1f1527c-61da-4488-acf0-19e349d368b9" />
+
+## 💡 How It Works
+
+1. Enter your question in the chat box.
+2. The chatbot sends your prompt to the Groq API.
+3. Responses are streamed in real time.
+4. The first prompt becomes the conversation title.
+5. Start a new chat or download the conversation whenever you like.
+
+---
+
+## 📦 Requirements
+
+```
+streamlit
+groq
+python-dotenv
+```
+
+---
 
 
-## ▶️ Run the Application
+## ⭐ Future Improvements
 
-```bash
-streamlit run chatbot.py
+- Multiple chat history
+- Copy response button
+- Regenerate response
+- Model selection from sidebar
+- Export conversation as PDF
+- Light/Dark theme switch
 
-## 📌 Future Improvements
-
-* Multiple chat sessions
-* Conversation history
-* Download chat as PDF
-* Theme switch (Dark/Light)
-* Web search integration
-* Voice input and output
-* RAG using PDF documents
+---
 
 
-
+This project is licensed under the MIT License.
