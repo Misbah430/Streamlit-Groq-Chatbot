@@ -20,11 +20,12 @@ A simple and responsive AI chatbot built with **Python**, **Streamlit**, and the
 
 ## 🖼️ Preview
 
-> Add a screenshot of the application here.
+<img width="1364" height="670" alt="Screenshot " src="https://github.com/user-attachments/assets/f4cdbb0c-e95e-44fe-b777-bd93538b60ef" />
+
 
 Example:
 
-![Groq AI Chatbot](<img width="1364" height="670" alt="Screenshot " src="https://github.com/user-attachments/assets/4a7660d5-e03b-4c8c-86ee-788f4548afb9" />
+![Groq AI Chatbot](
 )
 
 ---
@@ -43,8 +44,8 @@ Example:
 
 ```text
 Streamlit-Groq-Chatbot/
-│── app.py
-│── requirements.txt
+│── chat.py
+│── requirenments.txt
 │── .env
 │── .gitignore
 │── README.md
@@ -117,6 +118,3 @@ python-dotenv
 - Light/Dark theme switch
 
 ---
-
-
-This project is licensed under the MIT License.
